@@ -158,6 +158,7 @@ namespace Google {
     /// </remarks>
     public void SignOut() {
       theConfiguration = null;
+      theInstance = null;
       impl.SignOut();
     }
 
